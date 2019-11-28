@@ -1,0 +1,44 @@
+{
+  "id": "1534486",
+  "name": "sho'p",
+  "font_family": "iconfont",
+  "css_prefix_text": "iconfont",
+  "description": "商城后台管理项目",
+  "glyphs": [
+    {
+      "icon_id": "6151097",
+      "name": "eye-fill",
+      "font_class": "eye-fill",
+      "unicode": "e7ab",
+      "unicode_decimal": 59307
+    },
+    {
+      "icon_id": "6151108",
+      "name": "database set-fill",
+      "font_class": "databaseset-fill",
+      "unicode": "e7b4",
+      "unicode_decimal": 59316
+    },
+    {
+      "icon_id": "6151117",
+      "name": "lock-fill",
+      "font_class": "lock-fill",
+      "unicode": "e7b9",
+      "unicode_decimal": 59321
+    },
+    {
+      "icon_id": "6151149",
+      "name": "user-group-fill",
+      "font_class": "user-group-fill",
+      "unicode": "e7d3",
+      "unicode_decimal": 59347
+    },
+    {
+      "icon_id": "6151151",
+      "name": "user-fill",
+      "font_class": "user-fill",
+      "unicode": "e7d5",
+      "unicode_decimal": 59349
+    }
+  ]
+}
