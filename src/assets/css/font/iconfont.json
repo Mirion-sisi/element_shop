@@ -6,6 +6,27 @@
   "description": "商城后台管理项目",
   "glyphs": [
     {
+      "icon_id": "1073664",
+      "name": "goods",
+      "font_class": "goods",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "6151033",
+      "name": "chart-area",
+      "font_class": "chart-area",
+      "unicode": "e78f",
+      "unicode_decimal": 59279
+    },
+    {
+      "icon_id": "6151091",
+      "name": "database-fill",
+      "font_class": "database-fill",
+      "unicode": "e7a6",
+      "unicode_decimal": 59302
+    },
+    {
       "icon_id": "6151097",
       "name": "eye-fill",
       "font_class": "eye-fill",
