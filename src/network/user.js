@@ -50,9 +50,20 @@ export function editUser(editForm) {
     })
 }
 
-export function deleUserById(id){
+export function deleUserById(id) {
     return request({
-        url:`/users/${id}`,
-        method:'delete'
+        url: `/users/${id}`,
+        method: 'delete'
+    })
+}
+
+
+export function setUserRole(userId,roleId) {
+    return request({
+        url: `users/${userId}/role`,
+        method: 'put',
+        data:{
+           rid:roleId
+        }
     })
 }

@@ -2,6 +2,8 @@ html,body,#app{
     height: 100%;
     margin: 0;
     padding: 0;
+    /* 给网页一个最小宽度，当不足时出现滑块 */
+    min-width: 1366px;
 }
 
 .el-breadcrumb{
