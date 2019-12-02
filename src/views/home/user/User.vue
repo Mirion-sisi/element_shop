@@ -241,8 +241,7 @@ export default {
       // 角色列表
       roleList: [],
       // 已选中的角色ID值
-      selectedRoleId: "",
-      setUserRoleForm: {}
+      selectedRoleId: ""
     };
   },
   methods: {

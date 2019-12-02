@@ -8,6 +8,9 @@ const User = () => import('../views/home/user/User.vue')
 const Rights=()=>import('../views/power/Rights.vue')
 const Roles=()=>import('../views/power/Roles.vue')
 
+
+const Categories=()=>import('../views/goods/Categories.vue')
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -41,6 +44,11 @@ const routes = [
         path: '/roles',
         name: 'roles',
         component: Roles
+      },
+      {
+        path: '/categories',
+        name: 'categories',
+        component: Categories
       },
 
     ]

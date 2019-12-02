@@ -7,7 +7,8 @@ import { Button,
      Card,Row,Col,
      Table,TableColumn,Switch,Tooltip,
      Pagination,Dialog,Tag,
-    Tree,Select,Option
+    Tree,Select,Option,
+    Cascader
 } from 'element-ui'
 
 
@@ -39,6 +40,7 @@ Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 
 import { Message, MessageBox } from 'element-ui'
 Vue.prototype.$message = Message

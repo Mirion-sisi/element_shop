@@ -123,7 +123,7 @@ export default {
       //   默认选中的树形结构中的节点
       defKeys: [],
       //   当前即将分配权限的角色的id
-      roleId: ""
+      roleId: "",
     };
   },
   created() {
