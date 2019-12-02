@@ -244,10 +244,3 @@ export default {
   margin: 15px 0;
 }
 </style>
-<style >
-.el-cascader-menu {
-  max-height: 300px;
-  overflow: hidden;
-  overflow-y: initial;
-}
-</style>

@@ -5,8 +5,15 @@ html,body,#app{
     /* 给网页一个最小宽度，当不足时出现滑块 */
     min-width: 1366px;
 }
-
+/* 面包屑设置全局样式 */
 .el-breadcrumb{
     margin-bottom: 15px;
     font-size: 14px;
 }
+
+/* 级联选择器设置全局样式 */
+.el-cascader-menu {
+    max-height: 300px;
+    overflow: hidden;
+    overflow-y: initial;
+  }
