@@ -1,11 +1,12 @@
 import {request} from './request'
 
-// 获取分类列表
+// 获取商品分类列表
 export function getCateList(queryInfo){
     return request({
         url:'categories',
         params:{
             // 以下都非必填参数
+            // type可填1,2,3,分别表示显示一层二层分类列表,不填默认获取所有级别的列表
             type:queryInfo.type,      
             pagenum:queryInfo.pagenum,
             pagesize:queryInfo.pagesize

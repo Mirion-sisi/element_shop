@@ -3,7 +3,7 @@ html,body,#app{
     margin: 0;
     padding: 0;
     /* 给网页一个最小宽度，当不足时出现滑块 */
-    min-width: 1366px;
+    min-width: 1347px;
 }
 /* 面包屑设置全局样式 */
 .el-breadcrumb{
@@ -16,4 +16,14 @@ html,body,#app{
     max-height: 300px;
     overflow: hidden;
     overflow-y: initial;
+  }
+
+  /* 分页区域 */
+  .el-pagination{
+    margin: 15px 0;
+  }
+
+  /* 富文本编辑器 */
+  .ql-editor{
+    min-height: 300px;
   }

@@ -12,6 +12,15 @@ import './assets/css/global.css'
 import './assets/css/font/iconfont.css'
 import './plugins/element'
 
+// 导入富文本编辑器
+import VueQuillEditor from 'vue-quill-editor'
+import 'quill/dist/quill.core.css'
+import 'quill/dist/quill.snow.css'
+import 'quill/dist/quill.bubble.css'
+Vue.use(VueQuillEditor)
+
+
+
 new Vue({
   router,
   store,

@@ -11,6 +11,8 @@ const Roles=()=>import('../views/power/Roles.vue')
 
 const Categories=()=>import('../views/goods/Categories.vue')
 const Params=()=>import('../views/goods/Params.vue')
+const GoodsList=()=>import('../views/goods/GoodsList.vue')
+const AddGoods=()=>import('../views/goods/AddGoods.vue')
 Vue.use(VueRouter)
 
 const routes = [
@@ -55,6 +57,16 @@ const routes = [
         name: 'params',
         component: Params
       },
+      {
+        path: '/goods',
+        name: 'goods',
+        component: GoodsList,
+      },
+      {
+        path: '/goods/add',
+        name: 'add',
+        component: AddGoods,
+      }
 
     ]
   },
