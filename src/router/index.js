@@ -15,6 +15,8 @@ const GoodsList=()=>import('../views/goods/GoodsList.vue')
 const AddGoods=()=>import('../views/goods/AddGoods.vue')
 
 const Order=()=>import('../views/order/Order.vue')
+
+const Report=()=>import('../views/report/Report.vue')
 Vue.use(VueRouter)
 
 const routes = [
@@ -73,6 +75,11 @@ const routes = [
         path: '/orders',
         name: 'orders',
         component: Order,
+      },
+      {
+        path: '/reports',
+        name: 'reports',
+        component: Report,
       },
 
     ]
